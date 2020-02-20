@@ -4,7 +4,7 @@ package bl;
 * NOTA: Puede ser mejor pasar esta clase a ser una clase abstracta*/
 public class Celda {
     // Esto representa el número de la celda representada en el tablero del juego
-    private int numero;
+    protected int numero;
 
     public Celda(int numero) {
         this.numero = numero;
