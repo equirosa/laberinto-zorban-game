@@ -43,7 +43,7 @@ public class Triada {
         this.atrapado = atrapado;
     }
 
-    //toString holi
+    //toString
 
     @Override
     public String toString() {
