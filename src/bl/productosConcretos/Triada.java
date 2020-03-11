@@ -44,7 +44,6 @@ public class Triada {
     }
 
     //toString
-
     @Override
     public String toString() {
         return "Triada{" +
