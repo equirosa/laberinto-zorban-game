@@ -5,12 +5,10 @@ import bl.Personajes.productosConcretos.*;
 public interface MetodoFabricaAbstractaPersonajes {
     /**
      * Crea una triada y la returna
-     * @param elemento1
-     * @param elemento2
-     * @param elemento3
+     * @param elementos
      * @return objTriada
      */
-    public Triada crearTriada(String elemento1, String elemento2, String elemento3);
+    public Triada crearTriada(String[] elementos);
 
     /**
      * Crea un personaje

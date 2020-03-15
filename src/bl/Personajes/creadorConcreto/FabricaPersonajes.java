@@ -5,14 +5,18 @@ import bl.Personajes.productosAbstractos.Elemental;
 import bl.Personajes.productosConcretos.*;
 
 public class FabricaPersonajes implements MetodoFabricaAbstractaPersonajes {
-    public Triada crearTriada(String elemento1, String elemento2, String elemento3){
-
+    public Triada crearTriada(String[] elementos){
+        Triada objTriada = new Triada();
+        Personaje[] lstPersonajes = new Personaje[3];
+        for(int i = 0; i < elementos.length; i++){
+            lstPersonajes[i] = crearPersonaje(elementos[i]);
+        }
         return null;
     }
 
-    public Elemental crearPersonaje(String elemento){
+    public Personaje crearPersonaje(String elemento){
         Elemento objElemento = new Elemento(elemento);
         Personaje objPersonaje = new Personaje(elemento, objElemento);
-        return null;
+        return objPersonaje;
     }
 }
