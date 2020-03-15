@@ -1,4 +1,4 @@
-package bl.productosConcretos;
+package bl.Personajes.productosConcretos;
 
 import java.util.Arrays;
 
@@ -44,6 +44,7 @@ public class Triada {
     }
 
     //toString
+
     @Override
     public String toString() {
         return "Triada{" +

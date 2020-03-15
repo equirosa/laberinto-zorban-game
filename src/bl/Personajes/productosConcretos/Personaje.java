@@ -1,8 +1,9 @@
-package bl.productosConcretos;
+package bl.Personajes.productosConcretos;
 
-import bl.productosAbstractos.Poder;
+import bl.Personajes.productosAbstractos.Elemental;
+import bl.Personajes.productosAbstractos.Poder;
 
-public class Personaje implements Poder {
+public class Personaje extends Elemental implements Poder {
 
     private String nombre = "";
 
@@ -11,8 +12,9 @@ public class Personaje implements Poder {
     public Personaje() {
     }
 
-    public Personaje(String nombre) {
+    public Personaje(String nombre, Elemento elemento) {
         this.nombre = nombre;
+        this.elemento = elemento;
     }
 
     //gets y sets

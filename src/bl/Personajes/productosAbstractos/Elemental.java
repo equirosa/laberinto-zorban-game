@@ -1,11 +1,11 @@
-package bl.productosAbstractos;
+package bl.Personajes.productosAbstractos;
 
-import bl.Elemento;
+import bl.Personajes.productosConcretos.Elemento;
 
 public abstract class Elemental {
-    private int vida = 0;
-    private Elemento elemento;
-    private int ataque;
+    protected int vida = 0;
+    protected Elemento elemento;
+    protected int ataque;
 
     //Constructores
 
