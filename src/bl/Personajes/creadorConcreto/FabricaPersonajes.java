@@ -12,6 +12,7 @@ public class FabricaPersonajes implements MetodoFabricaAbstractaPersonajes {
 
     public Elemental crearPersonaje(String elemento){
         Elemento objElemento = new Elemento(elemento);
+
         Personaje objPersonaje = new Personaje(elemento, objElemento);
         return null;
     }
