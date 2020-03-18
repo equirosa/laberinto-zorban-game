@@ -1,11 +1,16 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import bl.Personajes.creadorConcreto.FabricaPersonajes;
-import bl.Personajes.productosConcretos.Personaje;
-import bl.Personajes.productosConcretos.Triada;
+import bl.dado.creadorConcreto.FabricaDado;
+import bl.dado.productoConcreto.Dado;
+import bl.personajes.creadorConcreto.FabricaPersonajes;
+import bl.personajes.productosConcretos.Personaje;
+import bl.personajes.productosConcretos.Triada;
 
 public class Sandbox {
     public static void main(String[] args) throws Exception{
+        //probarTriada();
+        probarDadoMovimiento();
+    }
+
+    public static void probarTriada(){
         FabricaPersonajes fp = new FabricaPersonajes();
         String[] elementos = {"Fuego", "Agua", "Hielo"};
         Triada t = fp.crearTriada(elementos);
@@ -14,5 +19,11 @@ public class Sandbox {
         for(int i = 0; i < lstPersonajes.length; i++){
             System.out.println(lstPersonajes[i].toString());
         }
+    }
+
+    public static void probarDadoMovimiento(){
+        FabricaDado fabrica = new FabricaDado();
+        Dado objDadoMovimiento = fabrica.crearDadoMovimiento();
+        System.out.println(objDadoMovimiento.toString());
     }
 }

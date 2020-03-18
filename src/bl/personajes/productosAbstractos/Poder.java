@@ -1,4 +1,4 @@
-package bl.Personajes.productosAbstractos;
+package bl.personajes.productosAbstractos;
 
 public interface Poder {
 

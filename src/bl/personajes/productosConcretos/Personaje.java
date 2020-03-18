@@ -1,7 +1,7 @@
-package bl.Personajes.productosConcretos;
+package bl.personajes.productosConcretos;
 
-import bl.Personajes.productosAbstractos.Elemental;
-import bl.Personajes.productosAbstractos.Poder;
+import bl.personajes.productosAbstractos.Elemental;
+import bl.personajes.productosAbstractos.Poder;
 
 public class Personaje extends Elemental implements Poder {
 

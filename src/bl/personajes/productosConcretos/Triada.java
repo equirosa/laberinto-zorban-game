@@ -1,4 +1,4 @@
-package bl.Personajes.productosConcretos;
+package bl.personajes.productosConcretos;
 
 import java.util.Arrays;
 

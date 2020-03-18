@@ -1,10 +1,9 @@
-package bl.Personajes.creadorConcreto;
+package bl.personajes.creadorConcreto;
 
-import bl.Personajes.creador.MetodoFabricaAbstractaPersonajes;
-import bl.Personajes.productosAbstractos.Elemental;
-import bl.Personajes.productosConcretos.*;
+import bl.personajes.creador.IFabricaPersonaje;
+import bl.personajes.productosConcretos.*;
 
-public class FabricaPersonajes implements MetodoFabricaAbstractaPersonajes {
+public class FabricaPersonajes implements IFabricaPersonaje {
     public Triada crearTriada(String[] elementos){
         Triada objTriada = new Triada();
         Personaje[] lstPersonajes = new Personaje[3];

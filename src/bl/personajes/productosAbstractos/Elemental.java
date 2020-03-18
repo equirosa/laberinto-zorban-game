@@ -1,6 +1,6 @@
-package bl.Personajes.productosAbstractos;
+package bl.personajes.productosAbstractos;
 
-import bl.Personajes.productosConcretos.Elemento;
+import bl.personajes.productosConcretos.Elemento;
 
 public abstract class Elemental {
     protected int vida = 0;

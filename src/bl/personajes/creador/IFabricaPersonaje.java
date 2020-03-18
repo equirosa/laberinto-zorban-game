@@ -1,8 +1,8 @@
-package bl.Personajes.creador;
-import bl.Personajes.productosAbstractos.Elemental;
-import bl.Personajes.productosConcretos.*;
+package bl.personajes.creador;
+import bl.personajes.productosAbstractos.Elemental;
+import bl.personajes.productosConcretos.*;
 
-public interface MetodoFabricaAbstractaPersonajes {
+public interface IFabricaPersonaje {
     /**
      * Crea una triada y la returna
      * @param elementos
