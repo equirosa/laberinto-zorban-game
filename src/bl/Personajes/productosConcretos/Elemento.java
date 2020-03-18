@@ -64,24 +64,22 @@ public class Elemento {
         String descripcion = "";
         switch (nombre){
             case "Fuego":
-                descripcion = "Le otorga cinco puntos extra a un personaje de la triada por dos turnos.";
+                descripcion = "El usuario de este elemento es tipo fuego";
                 break;
             case "Agua":
-                descripcion = "Habilita el dado de ataque para un tiro extra.";
+                descripcion = "El usuario de este elemento es tipo agua";
                 break;
             case "Planta":
-                descripcion = "Por dos turnos no deja que un jugador saque más de tres en su dado de movimientos.";
+                descripcion = "El usuario de este elemento es tipo planta";
                 break;
             case "Electrico":
-                descripcion = "Causa una parálisis que puede evitar que un jugador tire el dado de movimiento," +
-                        " este efecto dura tres turnos.";
+                descripcion = "El usuario de este elemento es tipo eléctrico";
                 break;
             case "Roca":
-                descripcion = "Crea un stone en una casilla donde se encuentra un contricante, este stone (60 de vida)"
-                        + " se crea con las desventaja de la triada de dicho jugador.";
+                descripcion = "El usuario de este elemento es tipo roca";
                 break;
             case "Hielo":
-                descripcion = "Congela a un jugador por un turno.";
+                descripcion = "El usuario de este elemento es tipo hielo";
                 break;
         }
         return descripcion;

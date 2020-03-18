@@ -29,13 +29,6 @@ public class Personaje extends Elemental implements Poder {
 
     // toString
 
-    @Override
-    public String toString() {
-        return "Personaje{" +
-                "nombre='" + nombre + '\'' +
-                '}';
-    }
-
     //Métodos de la interface
 
     @Override

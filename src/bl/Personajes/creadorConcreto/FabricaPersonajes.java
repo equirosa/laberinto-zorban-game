@@ -11,7 +11,8 @@ public class FabricaPersonajes implements MetodoFabricaAbstractaPersonajes {
         for(int i = 0; i < elementos.length; i++){
             lstPersonajes[i] = crearPersonaje(elementos[i]);
         }
-        return null;
+        objTriada.setPersonajes(lstPersonajes);
+        return objTriada;
     }
 
     public Personaje crearPersonaje(String elemento){

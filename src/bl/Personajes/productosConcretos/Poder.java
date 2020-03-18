@@ -61,22 +61,24 @@ public class Poder {
         String efecto = "";
         switch (elemento){
             case "Fuego":
-                efecto = "El usuario de este elemento es tipo fuego";
+                efecto = "Le otorga cinco puntos extra a un personaje de la triada por dos turnos.";
                 break;
             case "Agua":
-                efecto = "El usuario de este elemento es tipo agua";
+                efecto = "Habilita el dado de ataque para un tiro extra.";
                 break;
             case "Planta":
-                efecto = "El usuario de este elemento es tipo planta";
+                efecto = "Por dos turnos no deja que un jugador saque más de tres en su dado de movimientos.";
                 break;
             case "Electrico":
-                efecto = "El usuario de este elemento es tipo eléctrico";
+                efecto = "Causa una parálisis que puede evitar que un jugador tire el dado de movimiento," +
+                        " este efecto dura tres turnos.";
                 break;
             case "Roca":
-                efecto = "El usuario de este elemento es tipo roca";
+                efecto = "Crea un stone en una casilla donde se encuentra un contricante, este stone (60 de vida)"
+                        + " se crea con las desventaja de la triada de dicho jugador.";
                 break;
             case "Hielo":
-                efecto = "El usuario de este elemento es tipo hielo";
+                efecto = "Congela a un jugador por un turno.";
                 break;
         }
         return efecto;
