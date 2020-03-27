@@ -15,6 +15,10 @@ public class Tablero {
         setGameName(pGameName);
     }
 
+    public String getGameName() {
+        return this.gameName;
+    }
+
     public void setGameName(String pGameName) {
         this.gameName = pGameName;
     }
