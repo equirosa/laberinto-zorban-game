@@ -1,5 +1,6 @@
 package tl;
 
+import bl.Tablero;
 import dl.Logica;
 
 public class ControladorGeneral {
@@ -16,5 +17,7 @@ public class ControladorGeneral {
         logica=Logica.getLogica();
     }
 
-    
+    public Tablero getTablero(String gameName){
+        return Tablero.getTablero(gameName);
+    }
 }
